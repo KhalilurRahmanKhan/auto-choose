@@ -2,15 +2,14 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Cart from './components/Cart/Cart';
 import Products from './components/Products/Products';
+import data from './data';
 
 function App() {
   const [products,setProducts] = useState([]);
   const [cart,setCart] = useState([]);
   useEffect(() => {
-    fetch('./data.js')
-    .then(response => response.json())
-    .then(data => setProducts(data));
-  },[])
+    setProducts(data);
+  },[]);
 
   const handleClick = (data) => {
     const newCart = [...cart,data];
