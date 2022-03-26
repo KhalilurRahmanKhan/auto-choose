@@ -1,3 +1,3 @@
 # Auto Choose
 
-Live site link: [http://localhost:3000](http://localhost:3000)
+Live site link: [https://auto-choose.netlify.app/](https://auto-choose.netlify.app/)
