@@ -8,7 +8,7 @@ const Cart = ({cart,setCart}) => {
         setCart([cart[Math.floor(Math.random()*(cart.length))]]);
     }
     return (
-        <div className='card'>
+        <div className='card p-2'>
             <b className='text-center bg-primary p-2'>Cart</b>
             <div>
                 {

@@ -35,6 +35,18 @@ function App() {
         <Cart cart={cart} setCart={setCart}></Cart>
        </div>
      </div>
+     <div className='card my-3 p-3'>
+       <h1>How react works?</h1>
+       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
+     </div>
+     <div  className='card my-3 p-3'>
+       <h1>Difference between props vs state?</h1>
+       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
+     </div>
+     <div  className='card my-3 p-3'>
+       <h1>How usestate works?</h1>
+       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
+     </div>
 
 
 
