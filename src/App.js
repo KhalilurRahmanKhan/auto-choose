@@ -22,8 +22,9 @@ function App() {
      <h1 className='text-center'>Auto choose</h1>
       <p className='text-center mb-3'><i>Choose automaticly</i></p>
      </div>
-     <div className='row'>
-       <div className='col-md-9'>
+     <div className='row d-flex flex-column-reverse flex-md-row
+'>
+       <div className='col-md-9 '>
        <div className='row'>
          {
            products.map(product => <Products data={product} key={product.id} handleClick={handleClick}></Products>)

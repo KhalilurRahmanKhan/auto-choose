@@ -12,7 +12,7 @@ const Cart = ({cart,setCart}) => {
             <b className='text-center bg-primary p-2'>Cart</b>
             <div>
                 {
-                    cart.map(item => <p key={item.id}>{item.title}</p>)
+                    cart.map(item => <li key={item.id}>{item.name}</li>)
                 }
             </div>
             <div className='text-center'>

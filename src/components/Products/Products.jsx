@@ -5,13 +5,13 @@ import "./Products.css";
 
 
 const Products = (props) => {
-   const {title} = props.data;
+   const {name,price,picture} = props.data;
     return (
         <div className="col-md-4 card">
-        <img src="https://picsum.photos/bike" alt="" className="card-img-top" height="200" />
+        <img src='' alt="" className="card-img-top" height="200" />
         <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">Some quick</p>
+            <h5 className="card-title">{name}</h5>
+            <p className="card-text">Price: {price} tk</p>
             <div onClick={() => props.handleClick(props.data)} className="add d-flex justify-content-between bg-primary px-5 py-1 text-white rounded align-items-center">
             <div >Add to cart</div>
              <FontAwesomeIcon icon={faCartShopping} className="" />
