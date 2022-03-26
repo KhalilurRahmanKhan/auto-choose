@@ -36,17 +36,14 @@ function App() {
        </div>
      </div>
      <div className='card my-3 p-3'>
-       <h1>How react works?</h1>
-       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
+       <h3>How react works?</h3>
+       <p>React is a library of javascript.It uses jsx syntex to view html.React creates the html element through javascript.It creates a virtual dom tree to identify the changes. It uses babel transpiler in behind the scene.</p>
      </div>
      <div  className='card my-3 p-3'>
-       <h1>Difference between props vs state?</h1>
-       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
+       <h3>Difference between props vs state?</h3>
+       <p>Props is used to share data in various component. State is responsible for storing the data. We can store the data and update the data in state. This data or state can be passed through props later.</p>
      </div>
-     <div  className='card my-3 p-3'>
-       <h1>How usestate works?</h1>
-       <p>loremaerfhyetjhrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrt</p>
-     </div>
+    
 
 
 
